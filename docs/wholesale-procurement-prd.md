@@ -1,9 +1,17 @@
-# Katastima — Wholesale Procurement MVP PRD
+# Katastima — Wholesale Procurement Extension PRD (Discovery / Candidate MVP-2)
 
 **Status:** Product hypothesis for discovery and pilot. No live procurement integrations are claimed.  
 **Product principle:** recommend and prepare; the retailer decides and confirms.
 
 ## 1. Objective
+
+## 1A. Non-negotiable boundary with the existing MVP-1
+
+This document scopes a **new procurement extension**; it does not redefine, replace or pause Katastima's original MVP thesis. The existing root workflow remains invoice/bill capture → human review/correction → inventory visibility → deterministic margin and reorder intelligence. Wholesale procurement may consume those outputs, but it must not replace them with a supplier directory or marketplace-first experience.
+
+The source MVP-1 PRD records local implementations for invoice OCR, inventory, deterministic margin/velocity/reorder logic and related screens/tests, while also marking live-database migrations and real-data validation as unverified and the manual correction UI / OCR evaluation as outstanding. The extension must use explicit status labels and must not claim the baseline or this new workflow is production-ready until its own gates are observed against real data.
+
+**Scope rule:** first validate and prototype one order-preparation loop. Do not add a broad supplier marketplace, automatic orders/payments, credit, AI-negotiated prices or autonomous substitutions. Each supplier order remains a retailer-reviewed draft until the retailer explicitly confirms submission.
 
 Help an independent retailer decide **what to replenish, which verified supplier offer to use, and what order to place**. Reduce avoidable stockouts, procurement effort and working-capital lock-up without adding a complex marketplace workflow.
 
