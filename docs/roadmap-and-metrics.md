@@ -2,6 +2,8 @@
 
 **Current stage:** Discovery/design. No supplier integrations or customer outcomes are yet verified in this repository.
 
+Calendar duration for each stage is **not estimated yet**. Treat the stages below as an evidence-gated sequence; size the work only after a first category, retailer workflow and supplier data/confirmation path are validated. Do not present the numbered weeks as a delivery commitment.
+
 ## Roadmap principles
 
 - Start with one procurement loop, not a broad marketplace.
@@ -10,7 +12,7 @@
 - Validate data freshness and product equivalence before recommending a price.
 - No automation may move money or submit an order without explicit retailer approval.
 
-## Stage 0 — Problem and data validation (week 1–2)
+## Stage 0 — Problem and data validation
 
 **Work**
 - Interview 5–10 kirana owners and 3–5 distributors in Hyderabad (targets for discovery, not claimed participants).
@@ -27,7 +29,7 @@
 
 **Stop condition:** if no supplier can provide sufficiently fresh data, test an order-assist/WhatsApp draft workflow rather than claiming live comparison.
 
-## Stage 1 — Procurement decision MVP (week 3–5)
+## Stage 1 — Procurement decision extension
 
 **Work**
 - Import/normalise one category's catalogue and pack units.
@@ -44,7 +46,7 @@
 - Unknown/stale price and unknown availability states are distinct and visible.
 - Cross-retailer and cross-supplier access tests pass.
 
-## Stage 2 — Reconcile, learn, improve (week 6–8)
+## Stage 2 — Reconcile, learn, improve
 
 **Work**
 - Record accepted quantities, partial fills, substitutions, delivery dates and final invoice amounts.
