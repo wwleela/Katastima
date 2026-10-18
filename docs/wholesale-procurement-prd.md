@@ -113,7 +113,13 @@ For any LLM extraction, keep source document reference, raw value, parsed value,
 
 ## 8. Pilot hypothesis
 
-A manageable discovery/pilot target (not existing traction): **5–10 retailers, 3–5 willing distributors, one category, 100–300 mapped SKUs**. Reduce these targets if onboarding or data freshness cannot be managed. Prefer a small, high-quality catalogue over a broad inaccurate one.
+These are **proposed research targets, not existing traction or committed delivery numbers**.
+
+Use a two-step sample size:
+- **Initial comparison proof:** 20–50 overlapping SKUs across at least two suppliers, with exact pack/unit mapping and permissioned source data. This is the smallest useful dataset for checking whether offer comparison can be trusted.
+- **Expanded pilot target:** 5–10 retailers, 3–5 willing distributors, one category, and potentially 100–300 mapped SKUs **only if** the initial proof shows catalogue onboarding and offer freshness can be maintained.
+
+Reduce the expanded target if data collection or supplier confirmation becomes unreliable. Prefer a small, high-quality catalogue over a broad inaccurate one.
 
 ## 9. UX principle
 
