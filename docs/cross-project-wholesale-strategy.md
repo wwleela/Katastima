@@ -69,6 +69,7 @@ For each feature, the release gate is:
 ## Current work products
 
 ### Katastima
+- [Root MVP-1 baseline and scope guardrails](root-mvp1-baseline.md)
 - [Market evidence and problem framing](market-research-and-problem.md)
 - [Wholesale procurement PRD](wholesale-procurement-prd.md)
 - [Data model and architecture](data-model-and-architecture.md)
