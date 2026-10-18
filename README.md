@@ -42,6 +42,7 @@ The prior [BharatShop architecture](https://github.com/wwleela/bharatshop-archit
 ## Documents
 
 - [Market evidence and problem framing](docs/market-research-and-problem.md)
+- [Root MVP-1 baseline and scope guardrails](docs/root-mvp1-baseline.md)
 - [Wholesale procurement PRD](docs/wholesale-procurement-prd.md)
 - [Data model and architecture](docs/data-model-and-architecture.md)
 - [Roadmap, metrics and release gates](docs/roadmap-and-metrics.md)
