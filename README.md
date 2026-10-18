@@ -39,6 +39,7 @@ The prior [BharatShop architecture](https://github.com/wwleela/bharatshop-archit
 - [Wholesale procurement PRD](docs/wholesale-procurement-prd.md)
 - [Data model and architecture](docs/data-model-and-architecture.md)
 - [Roadmap, metrics and release gates](docs/roadmap-and-metrics.md)
+- [Cross-project wholesale strategy: Katastima vs TripWise](docs/cross-project-wholesale-strategy.md)
 
 ## MVP success criteria
 
