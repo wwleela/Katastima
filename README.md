@@ -10,6 +10,12 @@ Retailers often coordinate procurement across supplier visits, phone calls, What
 
 The market signal validates that procurement digitisation is active; it does **not** by itself prove that Katastima has product-market fit. We must validate a specific workflow with retailers and distributors.
 
+## Relationship to the original Katastima MVP
+
+**The root MVP does not change.** The prior MVP-1 PRD focuses on turning existing retailer data into a useful margin or replenishment decision: invoice/bill ingestion with human review, inventory visibility, deterministic margin calculation, a trailing 14-day sales-velocity baseline, reorder-point logic and simple actionable alerts. Some components have local implementation/test evidence, but the source PRD explicitly records important open gates—including live migration verification, real-data margin/reorder checks, OCR evaluation on hand-verified bills and the manual correction UI. Do not describe the full product as live or production-verified without closing those gates.
+
+Wholesale is an **adjacent feature track**, not a replacement for that MVP. The intended bridge is to use existing stock/sales/reorder signals to help a retailer compare verified supplier offers and prepare an editable, retailer-confirmed order. Supplier marketplace, automatic purchase submission, credit and payments remain out of scope for the first procurement pilot.
+
 ## Product direction
 
 1. **Know what needs replenishing.** Begin with clear rules using stock on hand, recent sales, supplier lead time, minimum order quantities and outstanding purchase orders.
